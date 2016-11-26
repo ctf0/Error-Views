@@ -104,16 +104,8 @@
 			<h2>Server Error: 403 (Forbidden)</h2>
 			<hr>
 			<h3>What does this mean?</h3>
-			@if (session()->has('nop'))
-				{{ session()->get('nop') }}
-			@else
-				<p>
-					You Don't Have The Right Credentials To View The Requested Page.
-				</p>
-				<p>
-					Perhaps you would like to go to our <a href="{{ url('/') }}">home page</a>?
-				</p>
-			@endif
+			<p>You Don't Have The Right Credentials To View The Requested Page.</p>
+			<p>Perhaps you would like to go to our <a href="{{ url('/') }}">home page</a>?</p>
 		</div>
 	</div>
 </body>
