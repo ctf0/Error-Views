@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width">
     <style type="text/css">
         @import url(//fonts.googleapis.com/css?family=Droid+Sans);
-        
+
         article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
         audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
         audio:not([controls]) { display: none; }
@@ -60,40 +60,12 @@
         input:invalid, textarea:invalid { background-color: #f0dddd; }
         table { border-collapse: collapse; border-spacing: 0; }
         td { vertical-align: top; }
-        
-        body
-        {
-        font-family:'Droid Sans', sans-serif;
-        font-size:10pt;
-        color:#555;
-        line-height: 25px;
-        }
-        
-        .wrapper
-        {
-        width:760px;
-        margin:0 auto 5em auto;
-        }
-        
-        .main
-        {
-        overflow:hidden;
-        }
-        
-        .error-spacer
-        {
-        height:4em;
-        }
-        
-        a, a:visited
-        {
-        color:#2972A3;
-        }
-        
-        a:hover
-        {
-        color:#72ADD4;
-        }
+        body { font-family:'Droid Sans', sans-serif; font-size:10pt; color:#555; line-height: 25px; }
+        .wrapper { width:760px; margin:0 auto 5em auto; }
+        .main { overflow:hidden; }
+        .error-spacer { height:4em; }
+        a, a:visited { color:#2972A3; }
+        a:hover { color:#72ADD4; }
     </style>
 </head>
 <body>
