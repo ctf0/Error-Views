@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width">
     <style type="text/css">
         @import url(//fonts.googleapis.com/css?family=Droid+Sans);
-
+        
         article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
         audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
         audio:not([controls]) { display: none; }
@@ -73,7 +73,7 @@
         <div class="error-spacer"></div>
         <div role="main" class="main">
             <?php $messages = array('We need a map.', 'I think we\'re lost.', 'We took a wrong turn.'); ?>
-
+            
             <h1><?php echo $messages[mt_rand(0, 2)]; ?></h1>
             <h2>Server Error: 404 (Page not found)</h2>
             <hr>
@@ -84,7 +84,7 @@
                 back online as soon as possible.
             </p>
             <p>
-                Perhaps you would like to go to our <a href="{{ url('/') }}">home page</a>?
+                Perhaps you would like to go to our <a href="/">home page</a>?
             </p>
         </div>
     </div>

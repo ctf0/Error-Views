@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width">
     <style type="text/css">
         @import url(//fonts.googleapis.com/css?family=Droid+Sans);
-
+        
         article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
         audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
         audio:not([controls]) { display: none; }
@@ -83,7 +83,7 @@
                     You Don't Have The Right Credentials To View The Requested Page.
                 </p>
                 <p>
-                    Perhaps you would like to go to our <a href="{{ url('/') }}">home page</a>?
+                    Perhaps you would like to go to our <a href="/">home page</a>?
                 </p>
             @endif
         </div>

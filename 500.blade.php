@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width">
     <style type="text/css">
         @import url(//fonts.googleapis.com/css?family=Droid+Sans);
-
+        
         article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
         audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
         audio:not([controls]) { display: none; }
@@ -74,7 +74,7 @@
         <div role="main" class="main">
             <?php $messages = ['Ouch.', 'Oh no!']; ?>
             <h1><?php echo $messages[mt_rand(0, 1)]; ?></h1>
-
+            
             <h2>Server Error: 500 (Internal Server Error)</h2>
             <hr>
             <h3>What does this mean?</h3>
@@ -84,7 +84,7 @@
                 soon as possible.
             </p>
             <p>
-                Perhaps you would like to go to our <a href="{{ url('/') }}">home page</a>?
+                Perhaps you would like to go to our <a href="/">home page</a>?
             </p>
         </div>
     </div>
