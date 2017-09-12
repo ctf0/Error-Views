@@ -9,15 +9,13 @@
 </head>
 <body>
     <div class="wrapper">
-        <div class="error-spacer"></div>
-        <div role="main" class="main">
-            <h1>Server Error: 429 (Too Many Attempts)</h1>
-            <hr>
-            <h3>What does this mean?</h3>
-            <p>
-                You Have Made {{ $exception->getMessage() }}.
-            </p>
-        </div>
+        <h1>Unn</h1>
+        <h2>Server Error: 429 (Too Many Attempts)</h2>
+        <hr>
+        <h3>What does this mean?</h3>
+        <p>
+            You Have Made {{ $exception->getMessage() }}.
+        </p>
     </div>
 </body>
 </html>
