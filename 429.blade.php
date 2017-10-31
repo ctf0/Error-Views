@@ -14,7 +14,7 @@
         <hr>
         <h3>What does this mean?</h3>
         <p>
-            You Have Made Too Many Requests To The Same Page, And Now You Will Have To Wait For "{{ $retryAfter }} sec" Before Accesing This Page Again.
+            You Have Made {{ trans('auth.throttle', ['seconds'=> $retryAfter]) }}.
         </p>
     </div>
 </body>
